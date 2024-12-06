@@ -24,8 +24,9 @@ namespace Progtetel
             {
                 Console.Write(parosok[i] + " ");
             }
+            Console.WriteLine();
             //Maximum kiválasztás - 2
-            int i, max = 0, maxi = 0;
+            int max = 0, maxi = 0;
             int n = x.Length;
             for (i = 0; i < n; i++)
             {
@@ -36,7 +37,7 @@ namespace Progtetel
                 }
             }
             Console.WriteLine(max + ", indexe: " + (maxi + 1));
-            Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }
